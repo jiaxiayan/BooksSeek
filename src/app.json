@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/request/main",
+    "pages/comm/main",
+    "pages/community/main",
+    "pages/moreBooks/main",
+    "pages/showBook/main",
+    "pages/myUpload/main",
+    "pages/upload/main",
+    "pages/search/main",
+    "pages/chat/main",
+    "pages/mine/main",
+    "pages/message/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3A393F",
+    "navigationBarTitleText": "广工书友",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/index.png",
+      "selectedIconPath": "static/tabs/index_sel.png"
+    }, {
+      "text": "推荐",
+      "pagePath": "pages/community/main",
+      "iconPath": "static/tabs/recommand.png",
+      "selectedIconPath": "static/tabs/recommand_sel.png"
+    }, {
+      "text": "社区",
+      "pagePath": "pages/comm/main",
+      "iconPath": "static/tabs/comm.png",
+      "selectedIconPath": "static/tabs/comm_sel.png"
+    },    
+    {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/my_sel.png"
+    }]
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"您的位置信息将用于小程序获取定位"
+    }
+  }
+}
